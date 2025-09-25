@@ -29,6 +29,10 @@ Switches are added to select the active voltage for each rail.
 - Check out the schematic, board layout, or generate Gerbers for fabrication.
 
 ---
+## 📊 Bill of Materials
+See the [full BOM here](./bom/BOM.md).
+
+---
 ## Images
 
 <p align="center">
