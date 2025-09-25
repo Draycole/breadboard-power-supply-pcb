@@ -30,7 +30,7 @@ Switches are added to select the active voltage for each rail.
 
 ---
 ## 📊 Bill of Materials
-See the [full BOM here](./bom/BOM.md).
+See the [full BOM here](./BOM/bom.md).
 
 ---
 ## Images
