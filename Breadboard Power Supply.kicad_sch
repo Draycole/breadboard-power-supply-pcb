@@ -5,9 +5,9 @@
 	(uuid "de8b8ccf-2c02-4b2b-a24a-c2944a451429")
 	(paper "A4")
 	(title_block
-		(title "KiCad Practice Design with Breadboard Power Supply")
+		(title "Breadboard Power Supply Design")
 		(date "2025-09-23")
-		(rev "1.0")
+		(rev "2.0")
 		(company "Henry Munachimso")
 	)
 	(lib_symbols
@@ -1076,16 +1076,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "E-Switch"
+			(property "Description" "Slide Switch SPDT Through Hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1095,7 +1086,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
+			(property "MF" "E-Switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2123,15 +2114,6 @@
 		(at 81.28 53.34)
 		(uuid "7e318efb-a7f8-4960-a7c3-78933711d357")
 	)
-	(bus_entry
-		(at 190.5 214.63)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "930a5d52-b7e8-44bf-b544-867a81b1f16d")
-	)
 	(wire
 		(pts
 			(xy 134.62 58.42) (xy 134.62 66.04)
@@ -2912,16 +2894,6 @@
 		)
 		(uuid "409e386f-7760-4b2d-bb40-5fc330d01763")
 	)
-	(label "PWR_output"
-		(at 219.71 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "548553df-ab7c-400d-968a-00705475bff4")
-	)
 	(label "12V"
 		(at 87.63 48.26 0)
 		(effects
@@ -2952,16 +2924,6 @@
 		)
 		(uuid "7b1103d2-d6a8-43ca-8f94-9cafd6aae653")
 	)
-	(label "PWR_output"
-		(at 218.44 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91384db0-2773-447e-a8a8-df8236588d8a")
-	)
 	(label "5V"
 		(at 229.87 54.61 180)
 		(effects
@@ -2971,6 +2933,26 @@
 			(justify right bottom)
 		)
 		(uuid "9b6f6083-ff00-481a-94ac-503a7e2f998a")
+	)
+	(label "PWR_OUT_TOP"
+		(at 219.71 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a99d6eeb-db1b-4457-88dd-9e9fad71f1bd")
+	)
+	(label "PWR_OUT_DOWN"
+		(at 218.44 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba0932df-07ac-45c9-b091-12763606fc69")
 	)
 	(label "3.3V"
 		(at 151.13 123.19 180)
