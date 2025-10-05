@@ -3532,6 +3532,7 @@
 		(property "Value" "SW_Wuerth_450301014042"
 			(at -0.8636 3.9624 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "026e5bfd-ba54-48c4-af31-07fd1ef8aaab")
 			(effects
 				(font
